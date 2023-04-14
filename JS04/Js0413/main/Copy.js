@@ -1,7 +1,7 @@
 let num =10;
 
 
-//깊은 복사
+//깊은 복사 : 따로 저장
 let copyNum =num;
 // num이랑 copynum이 다른 곳에 저장 -> 10이 2개 저장
 
@@ -9,7 +9,7 @@ num=220;
 console.log(copyNum,num);
  
 
-//얕은 복사
+//얕은 복사 : 한쪽 바뀌면 다른것도 같이 바뀜
 // let person = { name:"gill"};
 // person ={name:"hong"};
 // console.log(person);
@@ -26,3 +26,13 @@ console.log(person);
 const copyPerson = person;
 person.name="kim";
 console.log(person.name, copyPerson.name);
+
+
+//////////////
+
+const studentObj={
+    name :"John",
+    age : 22
+}
+studentObj.gender="woman";
+console.log(studentObj);
