@@ -1,7 +1,8 @@
 const random = Math.random();
 console.log(random);
 
-function getMaxRandom(max){
-    return Math.floor(Math.random() *max+1)
+function getMaxRandom(min,max){
+    min = max-1;
+    return Math.floor(Math.random() *(max-min)+1+min)
 }
-console.log(getMaxRandom(10));
+console.log(getMaxRandom(10,40));
