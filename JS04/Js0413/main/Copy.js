@@ -8,6 +8,6 @@ let copyNum =num;
 num=220;
 console.log(copyNum,num);
 
-const person = { name:"gill"};
+let person = { name:"gill"};
 person ={name:"hong"};
 console.log(person);
