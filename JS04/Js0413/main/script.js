@@ -13,7 +13,8 @@ function printInfo(){
 
 
 function printInfo(){
-    window.open('popup.html', "팝업", "windtg=400, height=400, left=100, top=200")
+    window.scrollBy({left:50, behavior:'smooth'})
+    //window.open('popup.html', "팝업", "windtg=400, height=400, left=100, top=200")
 }
 // 레프트는 창 위치 지정
 
