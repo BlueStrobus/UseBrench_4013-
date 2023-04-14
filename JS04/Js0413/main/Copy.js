@@ -7,7 +7,7 @@ let copyNum =num;
 
 num=220;
 console.log(copyNum,num);
-
+ 
 
 //얕은 복사
 // let person = { name:"gill"};
