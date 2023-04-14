@@ -8,6 +8,13 @@ let copyNum =num;
 num=220;
 console.log(copyNum,num);
 
-let person = { name:"gill"};
-person ={name:"hong"};
+
+//얕은 복사
+// let person = { name:"gill"};
+// person ={name:"hong"};
+// console.log(person);
+//const는 안되고 let는 됨
+
+const person = { name:"gill"};  //주소저장
+person.name="hong";
 console.log(person);
