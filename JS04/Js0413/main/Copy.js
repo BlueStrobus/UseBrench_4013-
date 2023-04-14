@@ -21,3 +21,8 @@ const person = { name:"gill"};
 //{ name:"gill"}는 다른 곳에 저장
 person.name="hong";
 console.log(person);
+
+
+const copyPerson = person;
+person.name="kim";
+console.log(person.name, copyPerson.name);
