@@ -1,2 +1,4 @@
-const date = new Date(2022,11,25);
+const date = new Date();
+date.setFullYear(2222)
+const dateFormet = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`
 console.log(date);
