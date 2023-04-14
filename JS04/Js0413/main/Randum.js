@@ -4,4 +4,4 @@ console.log(random);
 function getMaxRandom(max){
     return Math.floor(Math.random() *max+1)
 }
-console.log(getMaxRandom);
+console.log(getMaxRandom(10));
