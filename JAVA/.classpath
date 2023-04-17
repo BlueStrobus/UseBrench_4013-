@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JAVA_0413 복사본/HowMakePack/src"/>
+	<classpathentry excluding="Pleeees/src/" kind="src" path="Java_0417"/>
+	<classpathentry kind="src" path="Java_0417/Pleeees/src"/>
+	<classpathentry kind="output" path="JAVA_0413 복사본/HowMakePack/bin"/>
+</classpath>
