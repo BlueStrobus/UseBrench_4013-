@@ -17,9 +17,6 @@ class Sub extends Sup {
     }
 }
 
-
-
-
 public class PaHaHa {
     public static void main(String[]args){
         Sub a = new Sub();
