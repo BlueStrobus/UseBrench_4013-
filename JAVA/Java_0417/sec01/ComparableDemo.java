@@ -24,9 +24,9 @@ class Rectangle implements Comparable<Rectangle> {
 }
 
 public class ComparableDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // MAIN!!!
         Rectangle[] rectangles = { new Rectangle(3, 5),
-                new Rectangle(2, 10), new Rectangle(5, 5) };
+                new Rectangle(2, 10), new Rectangle(5, 5) }; //길이 3짜리 배열 
 
         Arrays.sort(rectangles);
 
