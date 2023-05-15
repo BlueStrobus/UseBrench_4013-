@@ -5,7 +5,7 @@ class Dice {
     private double d1;
 
     public int roll () {
-        this.d1 = (Math.random() * 10 % 6) + 1;
+        this.d1 = (Math.random() * 6) + 1;
         return (int)d1;
     }
 
